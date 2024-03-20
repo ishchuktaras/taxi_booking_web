@@ -1,12 +1,12 @@
-import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 
 export default function Home() {
   return (
-   <div className="h-screen">
-    <UserButton />
-    <h2>Subscribe to Taxi Jihlava</h2>
-   </div>
-   
+    <div>
+      <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="bg-blue-800">Booking</div>
+        <div className="col-span-2 bg-yellow-600 ">Map</div>
+      </div>
+    </div>
   );
 }

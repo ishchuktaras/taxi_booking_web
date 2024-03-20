@@ -24,8 +24,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Adding a humorous utility class */
 @layer utilities {
+  /* This class makes text feel more balanced, both emotionally and typographically */
   .text-balance {
     text-wrap: balance;
+    transform: rotate(0.5turn); /* Because balance is all about perspective, right? */
+    font-size: 1.2em; /* Amplifies the feeling of equilibrium */
+    color: teal; /* Because teal is the most balanced color in the universe */
   }
 }
